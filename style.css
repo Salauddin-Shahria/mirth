@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 700px;
+	position: relative;
+	z-index: 111;
+}
+.header:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	content: "";
+	opacity: .7;
+	z-index: -11111;
+}
+.menu {
+	padding-top: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-left: 30px;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #EBFA00;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #EBFA00;
+}
+.swiper-container {
+  width: 1000px;
+  height: 500px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+ }
+ .swiper-slide .slide-box {
+ 	overflow: hidden;
+ }
+.swiper-slide .slide-box img{
+	width: 100%;
+	height: 100%;
+}
+.place {
+	margin-top: 50px;
+	min-height: 300px;
+}
+
+.place-details h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 700;
+
+}
+.place-details p {
+	font-size: 16px;
+	font-family: 'Zilla Slab', serif;
+	text-align: justify;
+}
+.place-img {
+	overflow: hidden;
+}
+.place-img img {
+	width: 100%;
+	height: 100%;
+	transition: transform 2s;
+}
+.place-img:hover img {
+	transform: scale(1.2);
+
+}
+.footer {
+	background: #333333;
+	margin-top: 50px;
+	min-height: 300px;
+}
+.footer-top {
+	padding-top: 30px;
+}
+.social-title h2{
+	color: #fff;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.social-icon {
+	padding-bottom: 60px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+.social-icon ul li {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #535353;
+	border-radius: 100%;
+	margin: 10px 5px;
+}
+.social-icon ul li:hover{
+	background: #0707F4;
+}
+.social-icon ul li a {
+	display: block;
+	color: #fff;
+	font-size: 25px;
+}
+.social-icon ul li a i {
+	line-height: 50px;
+}
+.footer-btm {
+	padding-top: 20px;
+}
+.footer-btm p{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Zilla Slab', serif;
+	text-align: center;
+}
+.footer-btm p span a{
+	padding: 0px 200px;
+	text-decoration: none;
+}
